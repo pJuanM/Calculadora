@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.fundo {
+    background-image: linear-gradient(45deg,#a021db 55%, #37c6df );
+    height:100vh;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+.fundo > h1 {
+    padding-top: 30px
+}
+.calculadora {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.4);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 13px;
+    padding: 20px;
+}
+#resultado {
+    width: 248px;
+    height:30px;
+    margin: 12px 5px 12px 5px;
+    padding: 3px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-size: 25px;
+    background-color: black;
+    border-radius: 10px;
+}
+#resultado:hover{
+    background-color: white; 
+    color: black;
+}
+.botao {
+    width: 57px;
+    height: 57px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: white ; /* #1f1f1f*/    
+    border:none;
+    color: black;
+    margin: 3px;
+    border-radius: 50%
+}
+.botao_igual {
+    height: 4.9em;
+    border-radius: 30px;
+}
+.botao_zero {
+    width: 4.88em;
+    border-radius: 30px;
+}
+.botao:hover {
+    background-color: black;
+    color: white;
+}
